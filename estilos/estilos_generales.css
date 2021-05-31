@@ -2,6 +2,7 @@
     background: rgb(45, 122, 118);
     margin: 0px;
     padding: 0px;
+    font-family: 'Righteous', cursive;
 }
 html, body {
     height: 99%;
@@ -22,49 +23,55 @@ header h1{
 hr{
     border-top: 2px solid rgb(105, 22, 13);
     border-bottom: 2px solid rgb(56, 11, 39);
+    box-shadow: 2px 2px 6px rgb(235, 68, 49);
+}
+.Navegacion ul li{
+    width: 20%;
 }
 nav{
     text-align: center;
     margin-top: 10px;
-    text-decoration:wavy;
 }
-nav button{
-    margin-bottom: 5px;
-    align-self: center;
+nav ul li{
+    width: 100%;
+    display: inline-block;
+    margin: 5px;
+    justify-content: center;
     border-radius: 30px;
     padding: 10px;
+    background: aliceblue;
 }
-nav button a{
+nav li a{
+    background-color: aliceblue;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 footer{
-    margin-bottom: 5px;
     margin-top: 5px;
     bottom: 0;
     left: 0;
     right: 0;
 }
 footer p{
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0px;
     padding: 0px;
 }
-.fila {
-    overflow: hidden;
-    clear: both;
-}
 iframe{
-    width: 100%;
     justify-content: center;
-    margin-top: 10px;
-    width: 99.7vw;
-    height: 50vw;
-    display: flex;
-    justify-content: center;
+    width: 99.7%;
+    height: 81.4vh;
 }
-nav button a:hover {
+.Navegacion ul li:hover {
     background: rgb(214, 226, 43);
+}
+.Posiciones2 ul li:hover {
+    background: rgb(214, 226, 43);
+}
+.ColorButton{
+    background:rgb(18, 18, 202);
+    color:aliceblue;
 }

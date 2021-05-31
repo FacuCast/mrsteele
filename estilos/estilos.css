@@ -1,7 +1,16 @@
+/*CSS PARA EL ARCHIVO index.html*/
+.fila {
+    overflow: hidden;
+    clear: both;
+}
+.Video{
+    height: 85%;
+}
+/*CSS PARA EL ARCHIVO noticias.html*/
 .VideoTexto{
     height: 85%;
 }
-article{
+.VideoTexto article{
     margin: 10px;
     display: flex;
     overflow: hidden;
@@ -16,7 +25,7 @@ article{
 .Texto i{
     position: relative;
     float: left;
-    font-size: 30px;
+    font-size: 27px;
 }
 .Imgs{
     width: 28%;
@@ -32,26 +41,43 @@ article{
     height: 90%;
 }
 .Posiciones{
+    display: flex;
     align-items: center;
     height: 85%;
 }
 .Posiciones2{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.Posiciones2 ul{
     width: 50%;
-    display: flex;
     flex-flow: column wrap;
 }
-.Posiciones2 button{
+.Posiciones2 ul li{
     margin: 10px;
-    min-width: ;
 }
-.Posiciones2 button a{
+.Posiciones2 ul li a{
     margin: 30px;
     font-size: 30px;
 }
 .Imgs2{
-    width: 50%;
-    margin-top: 10px;
+    padding-left: 40px;
+    width: 100%;
+    margin-top: 100px;
     height: 100%;
     display: flex;
     justify-content: center;
+}
+/*CSS PARA EL ARCHIVO m_drones.html*/
+.Drones{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.Drones article{
+    overflow: hidden;
+}
+.Drones article h2{
+    font-size: 30px;
+    margin: 2px;
 }
