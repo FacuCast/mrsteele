@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    .Navegacion-Tamaño{
+        height: 10% 
+    }
+    .Navegacion-Celular{
+        height: 10%;
+        display: none;
+    }
+    .Navegacion img{
+        margin-left: 5px;
+        display: inline;
+        float: left;
+        width: 70px;
+    }
+    .Visible{
+        margin-left: 5px;
+        display: contents;
+        float: left;
+        width: 70px;
+    }
+    .Texto-Celular i{
+        font-size: 20px;
+    }
+}
