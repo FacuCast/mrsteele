@@ -27,9 +27,6 @@ header h1{
     top: 10px;
     display: none;
 }
-.Visible li{
-    border-radius: 30px;
-}
 .Visible{
     width: 38px;
     position: absolute;
