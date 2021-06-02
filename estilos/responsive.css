@@ -1,6 +1,11 @@
 @media screen and (max-width: 1000px) {
     .Navegacion-Tamaño{
-        height: 10% 
+        height: 8%;
+    }
+    .Navegacion-Tamaño li a{
+        border-radius: 30px;
+        width: 100%;
+        background: blue;
     }
     .Navegacion-Celular{
         height: 10%;
@@ -10,7 +15,7 @@
         margin-left: 5px;
         display: inline;
         float: left;
-        width: 70px;
+        width: 10%;
     }
     .Visible{
         margin-left: 5px;
@@ -31,7 +36,7 @@
         height: 0%;
     }
     .ImagenesRedes{
-        flex-direction:row-reverse;
+justify-content: center;
         display: flex;
         clear: left;
     }
@@ -41,5 +46,8 @@
     }
     footer{
         display: none;
+    }
+    .Texto-Celular{
+        overflow-y: scroll;
     }
 }

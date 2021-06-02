@@ -28,6 +28,7 @@ header h1{
     display: none;
 }
 .Visible{
+    background: aliceblue;
     width: 38px;
     position: absolute;
     right: 5px;
@@ -60,7 +61,7 @@ nav ul li{
     background: aliceblue;
 }
 nav li a{
-    background-color: aliceblue;
+    background: none;
     color: black;
     font-size: 30px;
     text-decoration: none;
