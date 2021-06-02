@@ -36,7 +36,7 @@
         height: 0%;
     }
     .ImagenesRedes{
-justify-content: center;
+    justify-content: center;
         display: flex;
         clear: left;
     }
@@ -46,8 +46,5 @@ justify-content: center;
     }
     footer{
         display: none;
-    }
-    .Texto-Celular{
-        overflow-y: scroll;
     }
 }
