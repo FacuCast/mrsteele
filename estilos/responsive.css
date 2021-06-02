@@ -18,7 +18,28 @@
         float: left;
         width: 70px;
     }
-    .Texto-Celular i{
-        font-size: 20px;
+    .Img2-Celular img{
+        width: 100%;
+        display: block;
+        padding: 0px;
+
+    }
+    .Posiciones2{
+        display: none;
+    }
+    .Posiciones-Celular{
+        height: 0%;
+    }
+    .ImagenesRedes{
+        flex-direction:row-reverse;
+        display: flex;
+        clear: left;
+    }
+    .ImagenesRedes li{
+        margin: 3px;
+        
+    }
+    footer{
+        display: none;
     }
 }

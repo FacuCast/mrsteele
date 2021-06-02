@@ -34,6 +34,10 @@ header h1{
     top: 10px;
     display: none;
 }
+.ImagenesRedes{
+    display: none;
+    list-style: none;
+}
 hr{
     border-top: 2px solid rgb(105, 22, 13);
     border-bottom: 2px solid rgb(56, 11, 39);

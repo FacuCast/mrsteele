@@ -24,7 +24,7 @@
 .Texto i{
     position: relative;
     float: left;
-    font-size: 27px;
+    font-size: large;
 }
 .Imgs{
     width: 28%;
@@ -60,13 +60,13 @@
     font-size: 30px;
 }
 .Imgs2{
-    padding-left: 40px;
     width: 100%;
-    margin-top: 100px;
+    align-items:stretch;
     height: 100%;
     display: flex;
     justify-content: center;
 }
+
 /*CSS PARA EL ARCHIVO m_drones.html*/
 .Drones{
     width: auto;
